@@ -7,21 +7,21 @@ export const navMenu = [
   {
     title: "Upcoming",
     url: "/upcoming",
-    icon: "/svg/previous.svg",
+    icon: "/svg/upcoming.svg",
   },
   {
     title: "Previous",
     url: "/previous",
-    icon: "/svg/recordings.svg",
+    icon: "/svg/previous.svg",
   },
   {
     title: "Recordings",
     url: "/recordings",
-    icon: "/svg/room.svg",
+    icon: "/svg/recordings.svg",
   },
   {
     title: "Personal Room",
     url: "/personal-room",
-    icon: "/svg/upcoming.svg",
+    icon: "/svg/room.svg",
   },
 ];

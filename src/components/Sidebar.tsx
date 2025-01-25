@@ -13,15 +13,7 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <section className="bg-dark-1 h-screen md:w-[264px] pt-5">
-      {/* Logo Section */}
-      <div className="flex items-center mx-5">
-        <div className="relative w-12 h-12">
-          <Image src="/png/videoIcon.png" alt="logo" fill />
-        </div>
-        <h1 className="font-bold text-2xl hidden md:block">VACall</h1>
-      </div>
-
+    <section className="sticky bg-dark-1 h-screen md:w-[264px] pt-12 max-xsm:hidden">
       {/* Navigation Menu */}
       <div className="flex flex-col gap-6 mt-14">
         {navMenu.map(({ title, url, icon }) => {
