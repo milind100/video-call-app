@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import AuthSessionProvider from "@/providers/AuthSessionProvider";
 import { Toaster } from "@/components/ui/toaster";
+import "@stream-io/video-react-sdk/dist/css/styles.css";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
